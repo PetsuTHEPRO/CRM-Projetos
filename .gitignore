@@ -1,0 +1,40 @@
+# Ignorar o core do WordPress e arquivos de configuração sensíveis
+/wp-admin
+/wp-includes
+/wp-config.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+
+# Ignorar pastas de conteúdo gerado e de terceiros
+# ADICIONE EXCEÇÕES (!) PARA SEUS TEMAS E PLUGINS
+/wp-content/uploads
+/wp-content/upgrade
+/wp-content/cache
+/wp-content/backups
+/wp-content/plugins/
+!/wp-content/plugins/seu-plugin-customizado/
+/wp-content/themes/
+!/wp-content/themes/seu-tema-principal/
+
+# Ignorar arquivos de sistema e dependências
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
+.idea/
+.vscode/
+debug.log
+error_log
